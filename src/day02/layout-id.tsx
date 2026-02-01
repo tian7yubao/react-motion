@@ -23,7 +23,7 @@ export function LayoutId() {
                         {
                             selected === index && (
                                 <motion.span className="absolute inset-0 bg-rose-500 z-[-1]"
-                                             layoutId="underline"></motion.span>
+                                             layoutId="underline" ></motion.span>
                             )
                         }
                     </motion.li>
