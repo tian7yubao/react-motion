@@ -1,11 +1,11 @@
-import { MotionUsage } from "@/day01/motion-usage";
-import { MotionWhile } from "@/day01/motion-while";
+import { Layout } from "@/day02/layout";
+import { LayoutId } from "@/day02/layout-id";
 
 export function App () {
 
     return (
         <>
-            <MotionWhile/>
+            <LayoutId/>
         </>
     )
 
