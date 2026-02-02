@@ -31,11 +31,11 @@ export function ContainerVariants() {
     return (
         <div className="p-32 bg-slate-200">
             <motion.ul className="flex gap-10" variants={ container } initial={ "initial" } animate={ "animate" }>
-                <motion.li variants={ item } className="size-20  bg-rose-500"/>
-                <motion.li variants={ item } className="size-20  bg-rose-500"/>
-                <motion.li variants={ item } className="size-20  bg-rose-500"/>
-                <motion.li variants={ item } className="size-20  bg-rose-500"/>
-                <motion.li variants={ item } className="size-20  bg-rose-500"/>
+                <motion.li variants={ item } className="size-20 bg-rose-500"/>
+                <motion.li variants={ item } className="size-20 bg-rose-500"/>
+                <motion.li variants={ item } className="size-20 bg-rose-500"/>
+                <motion.li variants={ item } className="size-20 bg-rose-500"/>
+                <motion.li variants={ item } className="size-20 bg-rose-500"/>
             </motion.ul>
         </div>
     )
